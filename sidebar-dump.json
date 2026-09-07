@@ -1,0 +1,182 @@
+[
+  {
+    "tagName": "BUTTON",
+    "text": "ParkSmart",
+    "role": "combobox",
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "All",
+    "role": "combobox",
+    "href": null
+  },
+  {
+    "tagName": "A",
+    "text": "Parking Logs",
+    "role": null,
+    "href": "/web/dashboard/Logs"
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Parking Logs",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Site Management",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Operator Management",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Access Management",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Visitor Management",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Inventory",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Valet Management",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Reports",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "A",
+    "text": "Transactions",
+    "role": null,
+    "href": "/web/dashboard/Transactions"
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Transactions",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Violations",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "A",
+    "text": "Importer",
+    "role": null,
+    "href": "/web/dashboard/Importer"
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Importer",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "A",
+    "text": "User Activity",
+    "role": null,
+    "href": "/web/dashboard/UserActivity"
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "User Activity",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "User Management",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Toggle Sidebar",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Abhishek Kumar\nabhishekkumar",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Logs",
+    "role": "tab",
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Summary",
+    "role": "tab",
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Vehicle Number",
+    "role": "combobox",
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Apply",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "10",
+    "role": "combobox",
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "Columns",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "1",
+    "role": null,
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "10",
+    "role": "combobox",
+    "href": null
+  },
+  {
+    "tagName": "BUTTON",
+    "text": "1",
+    "role": null,
+    "href": null
+  }
+]

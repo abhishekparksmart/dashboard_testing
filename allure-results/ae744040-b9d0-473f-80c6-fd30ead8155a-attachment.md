@@ -1,0 +1,198 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "ParkSmart Business" [ref=e8]
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - combobox [active] [ref=e12] [cursor=pointer]:
+              - generic [ref=e13] [cursor=pointer]: ParkSmart
+              - img
+            - button [ref=e14] [cursor=pointer]:
+              - img
+          - combobox [ref=e18] [cursor=pointer]:
+            - generic [ref=e19] [cursor=pointer]: All
+            - img
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Parking Logs" [ref=e24] [cursor=pointer]:
+            - /url: /web/dashboard/Logs
+            - button "Parking Logs" [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+        - listitem [ref=e30]:
+          - button "Site Management" [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+            - img [ref=e37] [cursor=pointer]
+        - listitem [ref=e39]:
+          - button "Operator Management" [ref=e40] [cursor=pointer]:
+            - img [ref=e41] [cursor=pointer]
+            - img [ref=e45] [cursor=pointer]
+        - listitem [ref=e47]:
+          - button "Access Management" [ref=e48] [cursor=pointer]:
+            - img [ref=e49] [cursor=pointer]
+            - img [ref=e54] [cursor=pointer]
+        - listitem [ref=e56]:
+          - button "Visitor Management" [ref=e57] [cursor=pointer]:
+            - img [ref=e58] [cursor=pointer]
+            - img [ref=e64] [cursor=pointer]
+        - listitem [ref=e66]:
+          - button "Inventory" [ref=e67] [cursor=pointer]:
+            - img [ref=e68] [cursor=pointer]
+            - img [ref=e71] [cursor=pointer]
+        - listitem [ref=e73]:
+          - button "Valet Management" [ref=e74] [cursor=pointer]:
+            - img [ref=e75] [cursor=pointer]
+            - img [ref=e79] [cursor=pointer]
+        - listitem [ref=e81]:
+          - button "Reports" [ref=e82] [cursor=pointer]:
+            - img [ref=e83] [cursor=pointer]
+            - img [ref=e87] [cursor=pointer]
+        - listitem [ref=e89]:
+          - link "Transactions" [ref=e90] [cursor=pointer]:
+            - /url: /web/dashboard/Transactions
+            - button "Transactions" [ref=e91] [cursor=pointer]:
+              - img [ref=e92] [cursor=pointer]
+        - listitem [ref=e96]:
+          - button "Violations" [ref=e97] [cursor=pointer]:
+            - img [ref=e98] [cursor=pointer]
+            - img [ref=e106] [cursor=pointer]
+        - listitem [ref=e108]:
+          - link "Importer" [ref=e109] [cursor=pointer]:
+            - /url: /web/dashboard/Importer
+            - button "Importer" [ref=e110] [cursor=pointer]:
+              - img [ref=e111] [cursor=pointer]
+        - listitem [ref=e116]:
+          - link "User Activity" [ref=e117] [cursor=pointer]:
+            - /url: /web/dashboard/UserActivity
+            - button "User Activity" [ref=e118] [cursor=pointer]:
+              - img [ref=e119] [cursor=pointer]
+        - listitem [ref=e121]:
+          - button "User Management" [ref=e122] [cursor=pointer]:
+            - img [ref=e123] [cursor=pointer]
+            - img [ref=e129] [cursor=pointer]
+    - main [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - button "Panel Left Toggle Sidebar" [ref=e134] [cursor=pointer]:
+            - img "Panel Left" [ref=e135] [cursor=pointer]
+            - generic [ref=e136] [cursor=pointer]: Toggle Sidebar
+          - navigation "breadcrumb" [ref=e137]:
+            - list [ref=e138]:
+              - link "Parking Logs" [disabled] [ref=e139]
+        - generic [ref=e140]:
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - button "Testimonials Abhishek Kumar abhishekkumar" [ref=e143] [cursor=pointer]:
+                - generic [ref=e144] [cursor=pointer]:
+                  - img "Testimonials" [ref=e146] [cursor=pointer]
+                  - generic [ref=e147] [cursor=pointer]:
+                    - generic [ref=e148] [cursor=pointer]: Abhishek Kumar
+                    - generic [ref=e149] [cursor=pointer]: abhishekkumar
+                - img [ref=e150] [cursor=pointer]
+          - button "Dashboard user access" [ref=e153] [cursor=pointer]:
+            - img
+      - generic [ref=e155]:
+        - tablist [ref=e156]:
+          - tab "Logs" [selected] [ref=e157] [cursor=pointer]
+          - tab "Summary" [ref=e158] [cursor=pointer]
+        - tabpanel "Logs" [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - img [ref=e165]
+                  - textbox "Search by" [ref=e168]
+                  - combobox [ref=e169] [cursor=pointer]:
+                    - generic: Vehicle Number
+                    - img [ref=e170] [cursor=pointer]
+                - generic [ref=e173] [cursor=pointer]:
+                  - img [ref=e174] [cursor=pointer]
+                  - generic [ref=e176] [cursor=pointer]:
+                    - generic [ref=e177] [cursor=pointer]: Sep 7, 2026
+                    - generic [ref=e178] [cursor=pointer]: "|"
+                    - generic [ref=e179] [cursor=pointer]: Today
+                - generic [ref=e181] [cursor=pointer]:
+                  - img [ref=e182] [cursor=pointer]
+                  - generic [ref=e185] [cursor=pointer]: 05:00:00 to 04:59:59
+                - generic [ref=e187] [cursor=pointer]:
+                  - img [ref=e188] [cursor=pointer]
+                  - text: Filters
+                - button "Apply" [disabled]
+                - button "Saved filters" [ref=e190] [cursor=pointer]:
+                  - img
+              - generic [ref=e194]:
+                - generic [ref=e195] [cursor=pointer]: Entry Foc
+                - generic [ref=e196] [cursor=pointer]: Exit
+                - generic [ref=e197] [cursor=pointer]: MV
+                - button [disabled]:
+                  - img
+            - generic [ref=e198]: "Showing results for: Sep 7, 2026 , 5:00 AM - Sep 8, 2026 , 4:59 AM"
+          - generic [ref=e199]:
+            - generic [ref=e201]:
+              - button [ref=e203] [cursor=pointer]:
+                - img
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]: Show
+                  - combobox [ref=e207] [cursor=pointer]:
+                    - generic: "10"
+                    - img [ref=e208] [cursor=pointer]
+                - generic [ref=e210]: 0 - 0 of 0
+                - button "Columns" [ref=e212] [cursor=pointer]:
+                  - text: Columns
+                  - img
+                - generic [ref=e214]:
+                  - button "First Page" [disabled]:
+                    - img
+                  - button "Previous Page" [disabled]:
+                    - img
+                  - button "Next Page" [disabled]:
+                    - img
+                  - button "Last Page" [disabled]:
+                    - img
+            - table [ref=e216]:
+              - rowgroup [ref=e217]:
+                - row "Vehicle User Direction Type Time Amount Gate Mode Operator Add On Images Actions" [ref=e218]:
+                  - cell "Vehicle" [ref=e219]
+                  - cell "User" [ref=e220]
+                  - cell "Direction" [ref=e221]
+                  - cell "Type" [ref=e222]
+                  - cell "Time" [ref=e223]
+                  - cell "Amount" [ref=e224]
+                  - cell "Gate" [ref=e225]
+                  - cell "Mode" [ref=e226]
+                  - cell "Operator" [ref=e227]
+                  - cell "Add On" [ref=e228]
+                  - cell "Images" [ref=e229]
+                  - cell "Actions" [ref=e230]
+              - rowgroup
+            - generic [ref=e232]:
+              - img "Error Illustration" [ref=e233]
+              - heading "No results found" [level=1] [ref=e234]
+              - paragraph [ref=e235]: The filters you selected didn’t match anything. Try changing the filters to see results.
+            - generic [ref=e237]:
+              - button [ref=e239] [cursor=pointer]:
+                - img
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - generic [ref=e242]: Show
+                  - combobox [ref=e243] [cursor=pointer]:
+                    - generic: "10"
+                    - img [ref=e244] [cursor=pointer]
+                - generic [ref=e246]: 0 - 0 of 0
+                - generic [ref=e248]:
+                  - button "First Page" [disabled]:
+                    - img
+                  - button "Previous Page" [disabled]:
+                    - img
+                  - button "Next Page" [disabled]:
+                    - img
+                  - button "Last Page" [disabled]:
+                    - img
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e249]
+```

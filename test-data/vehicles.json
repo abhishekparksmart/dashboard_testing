@@ -1,0 +1,12 @@
+{
+  "validVehicle": {
+    "type": "Car",
+    "number": "DL01AB1234",
+    "identificationMode": "ANPR"
+  },
+  "invalidVehicle": {
+    "type": "Bike",
+    "number": "INVALID123",
+    "identificationMode": "ANPR"
+  }
+}

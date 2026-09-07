@@ -1,0 +1,15 @@
+{
+  "admin": {
+    "username": "abhishekkumar",
+    "role": "admin",
+    "site": "ParkSmart"
+  },
+  "validUser": {
+    "name": "Abhishek Kumar",
+    "mobile": "6394255782",
+    "email": "[abhishek.kumar@parksmart.in]"
+  },
+  "invalidUser": {
+    "mobile": "0000000000"
+  }
+}

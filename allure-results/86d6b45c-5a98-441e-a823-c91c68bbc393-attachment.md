@@ -1,0 +1,259 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "ParkSmart Business" [ref=e8]
+        - generic [ref=e9]:
+          - combobox [ref=e11] [cursor=pointer]:
+            - generic [ref=e12] [cursor=pointer]: ParkSmart
+            - img
+          - combobox [ref=e15] [cursor=pointer]:
+            - generic [ref=e16] [cursor=pointer]: All
+            - img
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Parking Logs" [ref=e21] [cursor=pointer]:
+            - /url: /web/dashboard/Logs
+            - button "Parking Logs" [ref=e22] [cursor=pointer]:
+              - img [ref=e23] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Site Management" [ref=e28] [cursor=pointer]:
+            - img [ref=e29] [cursor=pointer]
+            - img [ref=e34] [cursor=pointer]
+        - listitem [ref=e36]:
+          - button "Operator Management" [ref=e37] [cursor=pointer]:
+            - img [ref=e38] [cursor=pointer]
+            - img [ref=e42] [cursor=pointer]
+        - listitem [ref=e44]:
+          - button "Access Management" [ref=e45] [cursor=pointer]:
+            - img [ref=e46] [cursor=pointer]
+            - img [ref=e51] [cursor=pointer]
+        - listitem [ref=e53]:
+          - button "Visitor Management" [ref=e54] [cursor=pointer]:
+            - img [ref=e55] [cursor=pointer]
+            - img [ref=e61] [cursor=pointer]
+        - listitem [ref=e63]:
+          - button "Inventory" [ref=e64] [cursor=pointer]:
+            - img [ref=e65] [cursor=pointer]
+            - img [ref=e68] [cursor=pointer]
+        - listitem [ref=e70]:
+          - button "Valet Management" [ref=e71] [cursor=pointer]:
+            - img [ref=e72] [cursor=pointer]
+            - img [ref=e76] [cursor=pointer]
+        - listitem [ref=e78]:
+          - button "Reports" [ref=e79] [cursor=pointer]:
+            - img [ref=e80] [cursor=pointer]
+            - img [ref=e84] [cursor=pointer]
+        - listitem [ref=e86]:
+          - link "Transactions" [ref=e87] [cursor=pointer]:
+            - /url: /web/dashboard/Transactions
+            - button "Transactions" [ref=e88] [cursor=pointer]:
+              - img [ref=e89] [cursor=pointer]
+        - listitem [ref=e93]:
+          - button "Violations" [ref=e94] [cursor=pointer]:
+            - img [ref=e95] [cursor=pointer]
+            - img [ref=e103] [cursor=pointer]
+        - listitem [ref=e105]:
+          - link "Importer" [ref=e106] [cursor=pointer]:
+            - /url: /web/dashboard/Importer
+            - button "Importer" [ref=e107] [cursor=pointer]:
+              - img [ref=e108] [cursor=pointer]
+        - listitem [ref=e113]:
+          - link "User Activity" [ref=e114] [cursor=pointer]:
+            - /url: /web/dashboard/UserActivity
+            - button "User Activity" [ref=e115] [cursor=pointer]:
+              - img [ref=e116] [cursor=pointer]
+        - listitem [ref=e118]:
+          - button "User Management" [ref=e119] [cursor=pointer]:
+            - img [ref=e120] [cursor=pointer]
+            - img [ref=e126] [cursor=pointer]
+    - main [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - button "Panel Left Toggle Sidebar" [ref=e131] [cursor=pointer]:
+            - img "Panel Left" [ref=e132] [cursor=pointer]
+            - generic [ref=e133] [cursor=pointer]: Toggle Sidebar
+          - navigation "breadcrumb" [ref=e134]:
+            - list [ref=e135]:
+              - link "Transactions" [disabled] [ref=e136]
+        - generic [ref=e137]:
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - button "Testimonials Abhishek Kumar abhishekkumar" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141] [cursor=pointer]:
+                  - img "Testimonials" [ref=e143] [cursor=pointer]
+                  - generic [ref=e144] [cursor=pointer]:
+                    - generic [ref=e145] [cursor=pointer]: Abhishek Kumar
+                    - generic [ref=e146] [cursor=pointer]: abhishekkumar
+                - img [ref=e147] [cursor=pointer]
+          - button "Dashboard user access" [ref=e150] [cursor=pointer]:
+            - img
+      - generic [ref=e152]:
+        - tablist [ref=e153]:
+          - tab "Visitor" [selected] [ref=e154] [cursor=pointer]
+          - tab "Access Pass" [ref=e155] [cursor=pointer]
+          - tab "Summary" [ref=e156] [cursor=pointer]
+        - tabpanel "Visitor" [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - img [ref=e163]
+                  - textbox "Search by" [ref=e166]: "0000000000"
+                  - combobox [ref=e167] [cursor=pointer]:
+                    - generic: Vehicle Number
+                    - img [ref=e168] [cursor=pointer]
+                - generic [ref=e171] [cursor=pointer]:
+                  - img [ref=e172] [cursor=pointer]
+                  - generic [ref=e174] [cursor=pointer]:
+                    - generic [ref=e175] [cursor=pointer]: Aug 6, 2026
+                    - generic [ref=e176] [cursor=pointer]: "|"
+                    - generic [ref=e177] [cursor=pointer]: Today
+                - generic [ref=e179] [cursor=pointer]:
+                  - img [ref=e180] [cursor=pointer]
+                  - generic [ref=e183] [cursor=pointer]: 00:00:00 to 23:59:59
+                - generic [ref=e185] [cursor=pointer]:
+                  - img [ref=e186] [cursor=pointer]
+                  - text: Filters
+                - button "Apply" [disabled]
+              - generic [ref=e190]:
+                - generic [ref=e191] [cursor=pointer]: Success
+                - generic [ref=e192] [cursor=pointer]: Processing
+                - generic [ref=e193] [cursor=pointer]: Not Initiated
+                - generic [ref=e194] [cursor=pointer]: Initiated
+                - generic [ref=e195] [cursor=pointer]: Failed
+                - generic [ref=e196] [cursor=pointer]: Cancelled
+                - button [ref=e197] [cursor=pointer]:
+                  - img
+            - generic [ref=e198]: "Showing results for: Aug 6, 2026 , 12:00 AM - Aug 6, 2026 , 11:59 PM"
+          - generic [ref=e199]:
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - button [disabled]:
+                  - img
+              - generic [ref=e203]:
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Show
+                  - combobox [disabled] [ref=e206]:
+                    - generic: "10"
+                    - img [ref=e207]
+                - generic [ref=e209]: 0 - 0 of 0
+                - button "Columns" [ref=e211] [cursor=pointer]:
+                  - text: Columns
+                  - img
+                - generic [ref=e213]:
+                  - button "First Page" [disabled]:
+                    - img
+                  - button "Previous Page" [disabled]:
+                    - img
+                  - button "Next Page" [disabled]:
+                    - img
+                  - button "Last Page" [disabled]:
+                    - img
+            - table [ref=e215]:
+              - rowgroup [ref=e216]:
+                - row "Vehicle Category Amount Payment Mode Status Site" [ref=e217]:
+                  - cell "Vehicle" [ref=e218]
+                  - cell "Category" [ref=e219]
+                  - cell "Amount" [ref=e220]
+                  - cell "Payment Mode" [ref=e221]
+                  - cell "Status" [ref=e222]
+                  - cell "Site" [ref=e223]
+              - rowgroup [ref=e224]:
+                - row [ref=e225]:
+                  - cell [ref=e226]
+                  - cell [ref=e228]
+                  - cell [ref=e230]
+                  - cell [ref=e232]
+                  - cell [ref=e234]
+                  - cell [ref=e236]
+                - row [ref=e238]:
+                  - cell [ref=e239]
+                  - cell [ref=e241]
+                  - cell [ref=e243]
+                  - cell [ref=e245]
+                  - cell [ref=e247]
+                  - cell [ref=e249]
+                - row [ref=e251]:
+                  - cell [ref=e252]
+                  - cell [ref=e254]
+                  - cell [ref=e256]
+                  - cell [ref=e258]
+                  - cell [ref=e260]
+                  - cell [ref=e262]
+                - row [ref=e264]:
+                  - cell [ref=e265]
+                  - cell [ref=e267]
+                  - cell [ref=e269]
+                  - cell [ref=e271]
+                  - cell [ref=e273]
+                  - cell [ref=e275]
+                - row [ref=e277]:
+                  - cell [ref=e278]
+                  - cell [ref=e280]
+                  - cell [ref=e282]
+                  - cell [ref=e284]
+                  - cell [ref=e286]
+                  - cell [ref=e288]
+                - row [ref=e290]:
+                  - cell [ref=e291]
+                  - cell [ref=e293]
+                  - cell [ref=e295]
+                  - cell [ref=e297]
+                  - cell [ref=e299]
+                  - cell [ref=e301]
+                - row [ref=e303]:
+                  - cell [ref=e304]
+                  - cell [ref=e306]
+                  - cell [ref=e308]
+                  - cell [ref=e310]
+                  - cell [ref=e312]
+                  - cell [ref=e314]
+                - row [ref=e316]:
+                  - cell [ref=e317]
+                  - cell [ref=e319]
+                  - cell [ref=e321]
+                  - cell [ref=e323]
+                  - cell [ref=e325]
+                  - cell [ref=e327]
+                - row [ref=e329]:
+                  - cell [ref=e330]
+                  - cell [ref=e332]
+                  - cell [ref=e334]
+                  - cell [ref=e336]
+                  - cell [ref=e338]
+                  - cell [ref=e340]
+                - row [ref=e342]:
+                  - cell [ref=e343]
+                  - cell [ref=e345]
+                  - cell [ref=e347]
+                  - cell [ref=e349]
+                  - cell [ref=e351]
+                  - cell [ref=e353]
+            - generic [ref=e356]:
+              - generic [ref=e357]:
+                - button [disabled]:
+                  - img
+              - generic [ref=e358]:
+                - generic [ref=e359]:
+                  - generic [ref=e360]: Show
+                  - combobox [disabled] [ref=e361]:
+                    - generic: "10"
+                    - img [ref=e362]
+                - generic [ref=e364]: 0 - 0 of 0
+                - generic [ref=e366]:
+                  - button "First Page" [disabled]:
+                    - img
+                  - button "Previous Page" [disabled]:
+                    - img
+                  - button "Next Page" [disabled]:
+                    - img
+                  - button "Last Page" [disabled]:
+                    - img
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e367]
+```

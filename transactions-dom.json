@@ -1,0 +1,127 @@
+{
+  "tabs": [
+    {
+      "tagName": "BUTTON",
+      "text": "Visitor"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Access Pass"
+    },
+    {
+      "tagName": "BUTTON",
+      "text": "Summary"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "ParkSmart",
+      "classes": "inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full justify-between relative bg-gray-100"
+    },
+    {
+      "text": "All",
+      "classes": "inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full justify-between relative z-[1] text-gray-500"
+    },
+    {
+      "text": "Parking Logs",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] hover:[background-color:var(--ps-100-color)] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[active=true]:border-l-4 border-l-green-600 rounded-lg h-8 text-sm"
+    },
+    {
+      "text": "Site Management",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Operator Management",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Access Management",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Visitor Management",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Inventory",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Valet Management",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Reports",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Transactions",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] hover:[background-color:var(--ps-100-color)] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[active=true]:border-l-4 border-l-green-600 rounded-lg h-8 text-sm"
+    },
+    {
+      "text": "Violations",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Importer",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] hover:[background-color:var(--ps-100-color)] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[active=true]:border-l-4 border-l-green-600 rounded-lg h-8 text-sm"
+    },
+    {
+      "text": "User Activity",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] hover:[background-color:var(--ps-100-color)] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[active=true]:border-l-4 border-l-green-600 rounded-lg h-8 text-sm"
+    },
+    {
+      "text": "User Management",
+      "classes": "peer/menu-button flex w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-8 text-sm"
+    },
+    {
+      "text": "Toggle Sidebar",
+      "classes": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-7 w-7 -ml-1"
+    },
+    {
+      "text": "Abhishek Kumar\nabhishekkumar",
+      "classes": "peer/menu-button w-full text-gray-500 items-center gap-2 overflow-hidden rounded-lg p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-green-100 data-[active=true]:font-normal data-[active=true]:text-green-600 data-[state=open]:hover:[background-color:var(--ps-100-color)] data-[state=open]:[background-color:var(--ps-100-color)] group-data-[collapsible=icon]:!size-8 [&>span:last-child]:truncate [&>svg]:size-5 [&>svg]:shrink-0 data-[state=open]:rounded-bl-none data-[state=open]:rounded-br-none hover:[background-color:var(--ps-100-color)] h-12 text-sm group-data-[collapsible=icon]:!p-0 data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground flex justify-between"
+    },
+    {
+      "text": "Visitor",
+      "classes": "inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-500 data-[state=active]:text-green-600 data-[state=active]:border-b data-[state=active]:border-green-600 px-4 py-2 rounded-none bg-transparent"
+    },
+    {
+      "text": "Access Pass",
+      "classes": "inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-500 data-[state=active]:text-green-600 data-[state=active]:border-b data-[state=active]:border-green-600 px-4 py-2 rounded-none bg-transparent"
+    },
+    {
+      "text": "Summary",
+      "classes": "inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-gray-500 data-[state=active]:text-green-600 data-[state=active]:border-b data-[state=active]:border-green-600 px-4 py-2 rounded-none bg-transparent"
+    },
+    {
+      "text": "Vehicle Number",
+      "classes": "flex w-[180px] px-2 items-center border-l border-l-gray-200 justify-center bg-background text-sm text-gray-500 ring-offset-background data-[placeholder]:text-gray-500 placeholder:text-sm focus:outline-none disabled:cursor-not-allowed [&>span]:line-clamp-1"
+    },
+    {
+      "text": "Apply",
+      "classes": "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground px-4 py-2 text-white text-sm rounded-lg h-full bg-green-200"
+    },
+    {
+      "text": "10",
+      "classes": "px-4 py-2 flex w-full items-center justify-between rounded-lg border bg-background text-sm ring-offset-background data-[placeholder]:text-gray-500 placeholder:text-sm focus:outline-none disabled:cursor-not-allowed [&>span]:line-clamp-1 text-gray-950 font-medium"
+    },
+    {
+      "text": "Columns",
+      "classes": "inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-input hover:bg-accent hover:text-accent-foreground px-4 py-2 text-sm text-gray-950 border rounded-lg h-full bg-transparent"
+    },
+    {
+      "text": "10",
+      "classes": "px-4 py-2 flex w-full items-center justify-between rounded-lg border bg-background text-sm ring-offset-background data-[placeholder]:text-gray-500 placeholder:text-sm focus:outline-none disabled:cursor-not-allowed [&>span]:line-clamp-1 text-gray-950 font-medium"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "text",
+      "placeholder": "Search by",
+      "name": "",
+      "id": "",
+      "classes": "flex w-[250px] py-2 text-sm text-gray-600 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-gray-500 placeholder:text-sm focus-visible:outline-none disabled:cursor-not-allowed"
+    }
+  ]
+}

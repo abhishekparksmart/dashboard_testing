@@ -1,0 +1,306 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - img
+            - generic:
+              - generic:
+                - combobox:
+                  - generic: ParkSmart
+                  - img
+              - generic:
+                - combobox:
+                  - generic: All
+                  - img
+          - generic:
+            - generic:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /web/dashboard/Logs
+                    - button:
+                      - img
+                      - generic: Parking Logs
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Site Management
+                    - img
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Operator Management
+                    - img
+                - listitem:
+                  - button [expanded]:
+                    - img
+                    - generic: Access Management
+                    - img
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /web/dashboard/AccessPasses
+                          - generic: Access Passes
+                      - listitem:
+                        - link:
+                          - /url: /web/dashboard/AccessPassTypes
+                          - generic: Access Pass Types
+                      - listitem:
+                        - link:
+                          - /url: /web/dashboard/AccessPassRequests
+                          - generic: Access Pass Requests
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Visitor Management
+                    - img
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Inventory
+                    - img
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Valet Management
+                    - img
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Reports
+                    - img
+                - listitem:
+                  - link:
+                    - /url: /web/dashboard/Transactions
+                    - button:
+                      - img
+                      - generic: Transactions
+                - listitem:
+                  - button:
+                    - img
+                    - generic: Violations
+                    - img
+                - listitem:
+                  - link:
+                    - /url: /web/dashboard/Importer
+                    - button:
+                      - img
+                      - generic: Importer
+                - listitem:
+                  - link:
+                    - /url: /web/dashboard/UserActivity
+                    - button:
+                      - img
+                      - generic: User Activity
+                - listitem:
+                  - button:
+                    - img
+                    - generic: User Management
+                    - img
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - img
+            - generic: Toggle Sidebar
+          - navigation:
+            - list:
+              - generic:
+                - listitem: Access Passes
+              - listitem:
+                - img
+              - link [disabled]: Issue
+        - generic:
+          - list:
+            - listitem:
+              - button:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Abhishek Kumar
+                    - generic: abhishekkumar
+                - img
+          - button:
+            - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button:
+                - img
+              - heading [level=1]: Issue Access Pass
+            - generic:
+              - button: Cancel
+              - button: Issue Pass
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: "!"
+                - generic:
+                  - paragraph:
+                    - text: "Site Selected:"
+                    - generic: ParkSmart
+                  - paragraph: This access pass will be created for the selected site in the dashboard. Confirm the correct site is selected in the dashboard.
+              - generic:
+                - generic:
+                  - generic: Access Pass Configuration
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Select Access Pass Type
+                            - generic: "*"
+                        - combobox:
+                          - text: 10 Days
+                          - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: Start Date & Start Time
+                          - generic: "*"
+                      - button:
+                        - img
+                        - text: Aug 05, 2026 16:26:27
+                    - generic:
+                      - generic:
+                        - generic: End Date & End Time
+                      - button [disabled]:
+                        - img
+                        - text: Aug 15, 2026 16:26:26
+                  - generic: This access pass type validity is 10 Day. Please select a start date & start time
+                  - generic:
+                    - generic:
+                      - generic: Renewal Periods
+                      - generic: Set the number of renewal cycles. Each step adds one full renewal interval.
+                      - generic:
+                        - button [disabled]:
+                          - img
+                        - generic: 10 Day
+                        - button:
+                          - img
+                    - generic:
+                      - generic: Amount Summary
+                      - generic:
+                        - generic: Base Amount
+                        - generic:
+                          - generic: ₹
+                          - spinbutton: "1"
+                      - generic:
+                        - generic:
+                          - generic: Base Amount
+                          - generic: ₹ 1
+                          - generic: Additional Charges
+                          - generic: ₹ 0
+                        - generic:
+                          - generic: Additional Charges
+                          - generic:
+                            - generic:
+                              - checkbox
+                              - generic: Processing Fee
+                              - generic:
+                                - img
+                            - generic: ₹ 1
+                      - generic:
+                        - generic:
+                          - generic: Total Amount
+                          - generic: ₹ 1
+                    - generic:
+                      - generic: Payment Mode
+                      - radiogroup:
+                        - generic:
+                          - radio [checked]:
+                            - generic:
+                              - img
+                          - generic: Cash
+                        - generic:
+                          - radio
+                          - generic: Online
+                        - generic:
+                          - radio
+                          - generic:
+                            - text: QR
+                            - generic:
+                              - img
+                  - generic:
+                    - generic:
+                      - generic: Pass Holder Name
+                      - textbox: SanityTest rxsI
+                    - generic:
+                      - generic: Additional Information
+                      - textbox
+              - generic:
+                - generic:
+                  - generic: User Details
+                - generic:
+                  - button:
+                    - img
+                    - text: Add User
+              - generic:
+                - generic:
+                  - generic: Vehicle Details
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: "!"
+                    - generic: You have not added any vehicles as of now. Click on New Vehicle button to add any vehicle
+                  - button:
+                    - img
+                    - text: Add Vehicle
+          - generic:
+            - generic:
+              - button: Cancel
+              - button: Issue Pass
+  - list
+  - alert
+  - dialog "Add Vehicle" [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Add Vehicle" [level=2] [ref=e4]
+      - button [ref=e5] [cursor=pointer]:
+        - img
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - text: Vehicle Type
+            - generic [ref=e10]: "*"
+          - combobox [ref=e11] [cursor=pointer]:
+            - generic: Car
+            - img [ref=e12] [cursor=pointer]
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - text: Vehicle Number
+            - generic [ref=e16]: "*"
+          - textbox "Vehicle Number *" [ref=e17]: UP02DK9403
+        - generic [ref=e18]:
+          - generic [ref=e19]: Chassis Number
+          - textbox "Chassis Number" [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - text: Select Identification Mode
+          - generic [ref=e23]: "*"
+        - combobox [ref=e24] [cursor=pointer]:
+          - generic: FASTag
+          - img [ref=e25] [cursor=pointer]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - text: FASTag EPC Id Manually
+          - generic [ref=e30]: "*"
+        - generic [ref=e31]:
+          - textbox "FASTag EPC Id Manually *" [ref=e32]
+          - button "Fetch FASTags" [ref=e34] [cursor=pointer]
+        - paragraph [ref=e35]: FASTag EPC Id is required
+    - generic [ref=e36]:
+      - button "Cancel" [ref=e37] [cursor=pointer]
+      - button "Add Vehicle" [active] [ref=e38] [cursor=pointer]
+```

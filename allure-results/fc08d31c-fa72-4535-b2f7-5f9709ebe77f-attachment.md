@@ -1,0 +1,189 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "ParkSmart Business" [ref=e8]
+        - generic [ref=e9]:
+          - combobox [ref=e11] [cursor=pointer]:
+            - generic [ref=e12] [cursor=pointer]: ParkSmart
+            - img
+          - combobox [ref=e15] [cursor=pointer]:
+            - generic [ref=e16] [cursor=pointer]: All
+            - img
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Parking Logs" [ref=e21] [cursor=pointer]:
+            - /url: /web/dashboard/Logs
+            - button "Parking Logs" [ref=e22] [cursor=pointer]:
+              - img [ref=e23] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Site Management" [ref=e28] [cursor=pointer]:
+            - img [ref=e29] [cursor=pointer]
+            - img [ref=e34] [cursor=pointer]
+        - listitem [ref=e36]:
+          - button "Operator Management" [ref=e37] [cursor=pointer]:
+            - img [ref=e38] [cursor=pointer]
+            - img [ref=e42] [cursor=pointer]
+        - listitem [ref=e44]:
+          - button "Access Management" [ref=e45] [cursor=pointer]:
+            - img [ref=e46] [cursor=pointer]
+            - img [ref=e51] [cursor=pointer]
+        - listitem [ref=e53]:
+          - button "Visitor Management" [ref=e54] [cursor=pointer]:
+            - img [ref=e55] [cursor=pointer]
+            - img [ref=e61] [cursor=pointer]
+        - listitem [ref=e63]:
+          - button "Inventory" [ref=e64] [cursor=pointer]:
+            - img [ref=e65] [cursor=pointer]
+            - img [ref=e68] [cursor=pointer]
+        - listitem [ref=e70]:
+          - button "Valet Management" [expanded] [ref=e71] [cursor=pointer]:
+            - img [ref=e72] [cursor=pointer]
+            - img [ref=e76] [cursor=pointer]
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - link "Valet Drivers" [ref=e81] [cursor=pointer]:
+                - /url: /web/dashboard/ValetDrivers
+        - listitem [ref=e83]:
+          - button "Reports" [ref=e84] [cursor=pointer]:
+            - img [ref=e85] [cursor=pointer]
+            - img [ref=e89] [cursor=pointer]
+        - listitem [ref=e91]:
+          - link "Transactions" [ref=e92] [cursor=pointer]:
+            - /url: /web/dashboard/Transactions
+            - button "Transactions" [ref=e93] [cursor=pointer]:
+              - img [ref=e94] [cursor=pointer]
+        - listitem [ref=e98]:
+          - button "Violations" [ref=e99] [cursor=pointer]:
+            - img [ref=e100] [cursor=pointer]
+            - img [ref=e108] [cursor=pointer]
+        - listitem [ref=e110]:
+          - link "Importer" [ref=e111] [cursor=pointer]:
+            - /url: /web/dashboard/Importer
+            - button "Importer" [ref=e112] [cursor=pointer]:
+              - img [ref=e113] [cursor=pointer]
+        - listitem [ref=e118]:
+          - link "User Activity" [ref=e119] [cursor=pointer]:
+            - /url: /web/dashboard/UserActivity
+            - button "User Activity" [ref=e120] [cursor=pointer]:
+              - img [ref=e121] [cursor=pointer]
+        - listitem [ref=e123]:
+          - button "User Management" [ref=e124] [cursor=pointer]:
+            - img [ref=e125] [cursor=pointer]
+            - img [ref=e131] [cursor=pointer]
+    - main [ref=e133]:
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - button "Panel Left Toggle Sidebar" [ref=e136] [cursor=pointer]:
+            - img "Panel Left" [ref=e137] [cursor=pointer]
+            - generic [ref=e138] [cursor=pointer]: Toggle Sidebar
+          - navigation "breadcrumb" [ref=e139]:
+            - list [ref=e140]:
+              - link "Valet Drivers" [disabled] [ref=e141]
+        - generic [ref=e142]:
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - button "Testimonials Abhishek Kumar abhishekkumar" [ref=e145] [cursor=pointer]:
+                - generic [ref=e146] [cursor=pointer]:
+                  - img "Testimonials" [ref=e148] [cursor=pointer]
+                  - generic [ref=e149] [cursor=pointer]:
+                    - generic [ref=e150] [cursor=pointer]: Abhishek Kumar
+                    - generic [ref=e151] [cursor=pointer]: abhishekkumar
+                - img [ref=e152] [cursor=pointer]
+          - button "Dashboard user access" [ref=e155] [cursor=pointer]:
+            - img
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - heading "Valet Drivers" [level=2] [ref=e159]
+            - paragraph [ref=e160]: View & Manage Valet Drivers.
+          - button "Create Valet Driver" [ref=e161] [cursor=pointer]:
+            - img
+            - text: Create Valet Driver
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - img [ref=e167]
+            - textbox "Search by" [ref=e170]: "8953675413"
+            - combobox [ref=e171] [cursor=pointer]:
+              - generic: Mobile Number
+              - img [ref=e172] [cursor=pointer]
+          - button "Apply" [disabled]
+        - generic [ref=e174]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - button [ref=e178] [cursor=pointer]:
+                - img
+              - button "Site/Parking Require" [ref=e179] [cursor=pointer]:
+                - img
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - generic [ref=e182]: Show
+                - combobox [ref=e183] [cursor=pointer]:
+                  - generic: "10"
+                  - img [ref=e184] [cursor=pointer]
+              - generic [ref=e186]: 1 - 1 of 1
+              - button "Columns" [ref=e188] [cursor=pointer]:
+                - text: Columns
+                - img
+              - generic [ref=e190]:
+                - button "First Page" [disabled]:
+                  - img
+                - button "Previous Page" [disabled]:
+                  - img
+                - button "1" [ref=e191] [cursor=pointer]
+                - button "Next Page" [disabled]:
+                  - img
+                - button "Last Page" [disabled]:
+                  - img
+          - table [ref=e193]:
+            - rowgroup [ref=e194]:
+              - row "Name Mobile Number Gender Email Test Status Actions" [ref=e195]:
+                - cell "Name" [ref=e196]
+                - cell "Mobile Number" [ref=e197]
+                - cell "Gender" [ref=e198]
+                - cell "Email" [ref=e199]
+                - cell "Test" [ref=e200]
+                - cell "Status" [ref=e201]
+                - cell "Actions" [ref=e202]
+            - rowgroup [ref=e203]:
+              - row "Paritosh test 8953675413 - - No Active" [ref=e204]:
+                - cell "Paritosh test" [ref=e205]
+                - cell "8953675413" [ref=e206]
+                - cell "-" [ref=e207]
+                - cell "-" [ref=e208]
+                - cell "No" [ref=e209]
+                - cell "Active" [ref=e210]:
+                  - generic [ref=e211]: Active
+                - cell [ref=e212]:
+                  - button [ref=e214] [cursor=pointer]:
+                    - img
+          - generic [ref=e216]:
+            - button [ref=e218] [cursor=pointer]:
+              - img
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - generic [ref=e221]: Show
+                - combobox [ref=e222] [cursor=pointer]:
+                  - generic: "10"
+                  - img [ref=e223] [cursor=pointer]
+              - generic [ref=e225]: 1 - 1 of 1
+              - button "Columns" [ref=e227] [cursor=pointer]:
+                - text: Columns
+                - img
+              - generic [ref=e229]:
+                - button "First Page" [disabled]:
+                  - img
+                - button "Previous Page" [disabled]:
+                  - img
+                - button "1" [ref=e230] [cursor=pointer]
+                - button "Next Page" [disabled]:
+                  - img
+                - button "Last Page" [disabled]:
+                  - img
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e231]
+```

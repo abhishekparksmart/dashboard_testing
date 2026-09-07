@@ -1,0 +1,105 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="40.300634">
+<testsuite name="regression/auth.spec.js" timestamp="2026-09-07T07:13:06.736Z" hostname="chromium" tests="3" failures="1" skipped="0" time="37.759" errors="0">
+<testcase name="Authentication Flows › Positive Scenarios › should login and logout successfully from ParkSmart @smoke" classname="regression/auth.spec.js" time="35.599">
+<failure message="auth.spec.js:13:9 should login and logout successfully from ParkSmart @smoke" type="FAILURE">
+<![CDATA[  [chromium] › regression/auth.spec.js:13:9 › Authentication Flows › Positive Scenarios › should login and logout successfully from ParkSmart @smoke 
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+      - waiting for locator('button:has(img[alt*="avatar"]), button.user-menu')
+
+
+       at ../pages/LoginPage.js:40
+
+      38 |
+      39 |   async logout() {
+    > 40 |     await this.userMenuButton.click();
+         |                               ^
+      41 |     await this.logoutMenuItem.click();
+      42 |     await this.page.waitForLoadState('networkidle');
+      43 |   }
+        at LoginPage.logout (/Users/parksmart/Desktop/Playwright_PS_JS/pages/LoginPage.js:40:31)
+        at /Users/parksmart/Desktop/Playwright_PS_JS/tests/regression/auth.spec.js:25:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    TimeoutError: locator.click: Timeout 15000ms exceeded.
+    Call log:
+      - waiting for locator('button:has(img[alt*="avatar"]), button.user-menu')
+
+
+       at ../pages/LoginPage.js:40
+
+      38 |
+      39 |   async logout() {
+    > 40 |     await this.userMenuButton.click();
+         |                               ^
+      41 |     await this.logoutMenuItem.click();
+      42 |     await this.page.waitForLoadState('networkidle');
+      43 |   }
+        at LoginPage.logout (/Users/parksmart/Desktop/Playwright_PS_JS/pages/LoginPage.js:40:31)
+        at /Users/parksmart/Desktop/Playwright_PS_JS/tests/regression/auth.spec.js:25:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/video.webm]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/error-context.md]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/video.webm]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/error-context.md]]
+
+[[ATTACHMENT|../test-results/regression-auth-Authentica-fd21e-sfully-from-ParkSmart-smoke-chromium-retry1/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Authentication Flows › Negative &amp; Validation Scenarios › should display error message on invalid credentials" classname="regression/auth.spec.js" time="1.27">
+</testcase>
+<testcase name="Authentication Flows › Negative &amp; Validation Scenarios › should require username and password to login" classname="regression/auth.spec.js" time="0.89">
+</testcase>
+</testsuite>
+</testsuites>
