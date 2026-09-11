@@ -3,13 +3,14 @@ import * as path from 'path';
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: true,
+  fullyParallel: false,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 1,
-  workers: process.env.CI ? 4 : 4,
+  workers: 1,
   
   // Set global setup for authentication state
   globalSetup: require.resolve('./config/global-setup'),
+  globalTeardown: require.resolve('./config/global-teardown'),
 
   reporter: [
     ['html', { outputFolder: 'reports/html-report', open: 'never' }],
@@ -18,6 +19,7 @@ export default defineConfig({
   ],
 
   use: {
+    storageState: '.auth/admin.json',
     // We rely on .env configuration, so no hardcoded baseURL here
     // baseURL: process.env.BASE_URL,
     

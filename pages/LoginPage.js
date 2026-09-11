@@ -10,7 +10,8 @@ exports.LoginPage = class LoginPage {
     this.passwordInput = page.getByRole('textbox', { name: /Password/i }).or(page.locator('input[type="password"]'));
     this.loginButton = page.getByRole('button', { name: /Sign in|Log in|Login/i });
     this.siteNameCombobox = page.getByRole('combobox').filter({ hasText: 'Site Name' });
-    this.userMenuButton = page.locator('button:has(img[alt*="avatar"]), button.user-menu'); // Generic user menu
+    this.userMenuButton = page.getByRole('button', { name: /abhishekkumar/i })
+      .or(page.locator('button:has(img[alt*="avatar"]), button.user-menu'));
     this.logoutMenuItem = page.getByRole('menuitem', { name: /Log out/i });
     this.errorMessage = page.locator('.error-message, .alert-danger, [role="alert"], .toast').first();
   }
@@ -21,8 +22,16 @@ exports.LoginPage = class LoginPage {
     await this.page.goto(`${baseUrl}${ROUTES.LOGIN}`);
   }
 
+  async gotoParkSmart() {
+    await this.navigate();
+  }
+
   // Actions
   async login(username, password) {
+    if (!/\/auth\/login/.test(this.page.url())) {
+      return;
+    }
+
     await this.usernameInput.fill(username);
     await this.passwordInput.fill(password);
     await this.loginButton.click();
@@ -30,6 +39,15 @@ exports.LoginPage = class LoginPage {
   }
 
   async selectSite(siteName) {
+    const noSiteSelected = await this.page
+      .getByRole('heading', { name: 'No Site Selected' })
+      .isVisible({ timeout: 2000 })
+      .catch(() => false);
+
+    if (!noSiteSelected) {
+      return;
+    }
+
     await this.siteNameCombobox.click();
     await this.page.getByPlaceholder('Search...').fill(siteName);
     await this.page.getByRole('option', { name: siteName, exact: true }).click();
