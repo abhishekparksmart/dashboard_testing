@@ -2,6 +2,8 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../pages/LoginPage';
 import { DashboardPage } from '../../pages/DashboardPage';
 
+test.use({ storageState: { cookies: [], origins: [] } });
+
 test.describe('Auth & Dashboard Integration', () => {
   let loginPage;
   let dashboardPage;
