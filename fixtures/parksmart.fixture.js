@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 const { test: base, expect } = require('@playwright/test');
 const { LoginPage }              = require('../pages/LoginPage');
@@ -6,6 +6,7 @@ const { ParkSmartDashboardPage } = require('../pages/ParkSmartDashboardPage');
 const { ParkSmartLogsPage }      = require('../pages/ParkSmartLogsPage');
 const { TransactionsPage }       = require('../pages/TransactionsPage');
 const { AccessPassPage }         = require('../pages/AccessPassPage');
+const { AccessPassTypesPage }    = require('../pages/AccessPassTypesPage');
 const { ReportsPage }            = require('../pages/ReportsPage');
 const { ValetDriverPage }        = require('../pages/ValetDriverPage');
 
@@ -103,6 +104,11 @@ const test = base.extend({
     await psPage.waitForLoadState('networkidle', { timeout: 15000 });
     const ap = new AccessPassPage(psPage);
     await use(ap);
+  },
+
+  apTypesPage: async ({ psPage }, use) => {
+    const pageObj = new AccessPassTypesPage(psPage);
+    await use(pageObj);
   },
 
   /** Reports page object (no auto-navigation — caller navigates) */

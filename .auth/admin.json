@@ -10,7 +10,7 @@
         },
         {
           "name": "authStore",
-          "value": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXIiOnsiaWQiOiJkZmEyNjcxYS0yMDlkLTQ3YmItOGQzNy0wM2YyODNhNTVkMmUifX0sInNlc3Npb25JZCI6IjNmOTBmMjUzLTYxOTQtNDQwYy05ZjIyLWZmNTExNjY2MDU4MiIsImlhdCI6MTc4OTcyMjQyOSwiZXhwIjoxNzg5NzQ0MDI5fQ.wzOs2ntDrnVe_95txyzGPbTvdikedGjDukdEcs7EC6Y\",\"isAuthenticated\":true,\"sessionSwitchInProgress\":false}"
+          "value": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXIiOnsiaWQiOiJkZmEyNjcxYS0yMDlkLTQ3YmItOGQzNy0wM2YyODNhNTVkMmUifX0sInNlc3Npb25JZCI6ImU5Y2JkMzZiLTZhNjQtNDE0My04MTkyLTJhNTRhMzQ0ZTgyZiIsImlhdCI6MTc4OTcyMzk4OCwiZXhwIjoxNzg5NzQ1NTg4fQ.lGqLdBNtBlnknFHgCdfelfa4ij1S8RaMqmW5ukediEM\",\"isAuthenticated\":true,\"sessionSwitchInProgress\":false}"
         },
         {
           "name": "dashboardStore",
