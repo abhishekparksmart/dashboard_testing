@@ -1,8 +1,4 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="39.35501300000001">
-<testsuite name="e2e\parksmart-full-flow.spec.js" timestamp="2026-09-18T09:07:10.874Z" hostname="chromium" tests="1" failures="0" skipped="0" time="31.219" errors="0">
-<testcase name="ParkSmart � Full E2E Master Flow › Complete ParkSmart user journey" classname="e2e\parksmart-full-flow.spec.js" time="31.219">
-<system-out>
-<![CDATA[[E2E Step 1] Dashboard loaded successfully
+[E2E Step 1] Dashboard loaded successfully
 [E2E Step 2] Logs tab total: 11
 [E2E Step 2] Column headers: Vehicle, User, Direction, Type, Time, Amount, Gate, Mode, Operator, Add On, Images, Actions
 [E2E Step 3] KPIs � Entered: 0, Exited: 0, NotExited: 0
@@ -14,8 +10,3 @@
 [E2E Step 7] Report row: "Parking Logscsv14:37:3818/09/202600:00:0018/09/202623:59:5918/09/2026RequestedParkSmart"
 [E2E Step 8] Navigated to Parking Logs ?
 [E2E] Full ParkSmart journey completed successfully ?
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>

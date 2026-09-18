@@ -1,0 +1,579 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "ParkSmart Business" [ref=e8]
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - combobox [ref=e12] [cursor=pointer]:
+              - generic [ref=e13] [cursor=pointer]: ParkSmart
+              - img
+            - button "Clear selection" [ref=e14] [cursor=pointer]:
+              - img
+          - combobox [ref=e18] [cursor=pointer]:
+            - generic [ref=e19] [cursor=pointer]: All
+            - img
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Parking Logs" [ref=e24] [cursor=pointer]:
+            - /url: /web/dashboard/Logs
+            - button "Parking Logs" [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+        - listitem [ref=e30]:
+          - button "Site Management" [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+            - img [ref=e37] [cursor=pointer]
+        - listitem [ref=e39]:
+          - button "Operator Management" [ref=e40] [cursor=pointer]:
+            - img [ref=e41] [cursor=pointer]
+            - img [ref=e45] [cursor=pointer]
+        - listitem [ref=e47]:
+          - button "Access Management" [ref=e48] [cursor=pointer]:
+            - img [ref=e49] [cursor=pointer]
+            - img [ref=e54] [cursor=pointer]
+        - listitem [ref=e56]:
+          - button "Visitor Management" [ref=e57] [cursor=pointer]:
+            - img [ref=e58] [cursor=pointer]
+            - img [ref=e64] [cursor=pointer]
+        - listitem [ref=e66]:
+          - button "Inventory" [ref=e67] [cursor=pointer]:
+            - img [ref=e68] [cursor=pointer]
+            - img [ref=e71] [cursor=pointer]
+        - listitem [ref=e73]:
+          - button "Valet Management" [ref=e74] [cursor=pointer]:
+            - img [ref=e75] [cursor=pointer]
+            - img [ref=e79] [cursor=pointer]
+        - listitem [ref=e81]:
+          - button "Reports" [ref=e82] [cursor=pointer]:
+            - img [ref=e83] [cursor=pointer]
+            - img [ref=e87] [cursor=pointer]
+        - listitem [ref=e89]:
+          - link "Transactions" [ref=e90] [cursor=pointer]:
+            - /url: /web/dashboard/Transactions
+            - button "Transactions" [ref=e91] [cursor=pointer]:
+              - img [ref=e92] [cursor=pointer]
+        - listitem [ref=e96]:
+          - button "Violations" [ref=e97] [cursor=pointer]:
+            - img [ref=e98] [cursor=pointer]
+            - img [ref=e106] [cursor=pointer]
+        - listitem [ref=e108]:
+          - link "Importer" [ref=e109] [cursor=pointer]:
+            - /url: /web/dashboard/Importer
+            - button "Importer" [ref=e110] [cursor=pointer]:
+              - img [ref=e111] [cursor=pointer]
+        - listitem [ref=e116]:
+          - link "User Activity" [ref=e117] [cursor=pointer]:
+            - /url: /web/dashboard/UserActivity
+            - button "User Activity" [ref=e118] [cursor=pointer]:
+              - img [ref=e119] [cursor=pointer]
+        - listitem [ref=e121]:
+          - button "User Management" [ref=e122] [cursor=pointer]:
+            - img [ref=e123] [cursor=pointer]
+            - img [ref=e129] [cursor=pointer]
+    - main [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - button "Panel Left Toggle Sidebar" [ref=e134] [cursor=pointer]:
+            - img "Panel Left" [ref=e135] [cursor=pointer]
+            - generic [ref=e136] [cursor=pointer]: Toggle Sidebar
+          - navigation "breadcrumb" [ref=e137]:
+            - list [ref=e138]:
+              - link "Parking Logs" [disabled] [ref=e139]
+        - generic [ref=e140]:
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - button "Testimonials Abhishek Kumar abhishekkumar" [ref=e143] [cursor=pointer]:
+                - generic [ref=e144] [cursor=pointer]:
+                  - img "Testimonials" [ref=e146] [cursor=pointer]
+                  - generic [ref=e147] [cursor=pointer]:
+                    - generic [ref=e148] [cursor=pointer]: Abhishek Kumar
+                    - generic [ref=e149] [cursor=pointer]: abhishekkumar
+                - img [ref=e150] [cursor=pointer]
+          - button "Dashboard user access" [ref=e153] [cursor=pointer]:
+            - img
+      - generic [ref=e155]:
+        - tablist [ref=e156]:
+          - tab "Logs" [active] [selected] [ref=e157] [cursor=pointer]
+          - tab "Summary" [ref=e158] [cursor=pointer]
+        - tabpanel "Logs" [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - img [ref=e165]
+                  - textbox "Search by" [ref=e168]
+                  - combobox [ref=e169] [cursor=pointer]:
+                    - generic: Vehicle Number
+                    - img [ref=e170] [cursor=pointer]
+                - generic [ref=e173] [cursor=pointer]:
+                  - img [ref=e174] [cursor=pointer]
+                  - generic [ref=e176] [cursor=pointer]:
+                    - generic [ref=e177] [cursor=pointer]: Sep 18, 2026
+                    - generic [ref=e178] [cursor=pointer]: "|"
+                    - generic [ref=e179] [cursor=pointer]: Today
+                - button "00:00:00 to 23:59:59" [ref=e181] [cursor=pointer]:
+                  - img [ref=e182] [cursor=pointer]
+                  - generic [ref=e185] [cursor=pointer]: 00:00:00 to 23:59:59
+                - generic [ref=e187] [cursor=pointer]:
+                  - img [ref=e188] [cursor=pointer]
+                  - text: Filters
+                  - generic [ref=e189] [cursor=pointer]: "1"
+                - combobox [ref=e191] [cursor=pointer]:
+                  - generic: Default
+                  - img [ref=e192] [cursor=pointer]
+                - button "Apply" [disabled]
+                - button "Saved filters" [ref=e195] [cursor=pointer]:
+                  - img
+              - generic [ref=e199]:
+                - generic [ref=e200] [cursor=pointer]: Entry Foc
+                - generic [ref=e201] [cursor=pointer]: Exit
+                - generic [ref=e202] [cursor=pointer]: MV
+                - button [disabled]:
+                  - img
+            - generic [ref=e203]: "Showing results for: Sep 18, 2026 , 12:00 AM - Sep 18, 2026 , 11:59 PM"
+          - generic [ref=e204]:
+            - generic [ref=e206]:
+              - button [ref=e208] [cursor=pointer]:
+                - img
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]: Show
+                  - combobox [ref=e212] [cursor=pointer]:
+                    - generic: "10"
+                    - img [ref=e213] [cursor=pointer]
+                - generic [ref=e215]: 1 - 10 of 10
+                - button "Columns" [ref=e217] [cursor=pointer]:
+                  - text: Columns
+                  - img
+                - generic [ref=e219]:
+                  - button "First Page" [disabled]:
+                    - img
+                  - button "Previous Page" [disabled]:
+                    - img
+                  - button "1" [ref=e220] [cursor=pointer]
+                  - button "Next Page" [disabled]:
+                    - img
+                  - button "Last Page" [disabled]:
+                    - img
+            - table [ref=e222]:
+              - rowgroup [ref=e223]:
+                - row "Vehicle User Direction Type Time Amount Gate Mode Operator Add On Images Actions" [ref=e224]:
+                  - cell "Vehicle" [ref=e225]
+                  - cell "User" [ref=e226]
+                  - cell "Direction" [ref=e227]
+                  - cell "Type" [ref=e228]
+                  - cell "Time" [ref=e229]
+                  - cell "Amount" [ref=e230]
+                  - cell "Gate" [ref=e231]
+                  - cell "Mode" [ref=e232]
+                  - cell "Operator" [ref=e233]
+                  - cell "Add On" [ref=e234]
+                  - cell "Images" [ref=e235]
+                  - cell "Actions" [ref=e236]
+              - rowgroup [ref=e237]:
+                - row "Bike/Scooter HR26BR5636 testing 1234567890 Entry Access Pass HK_timing 11:09:57 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - foc icon Edit parking log Delete parking log" [ref=e238] [cursor=pointer]:
+                  - cell "Bike/Scooter HR26BR5636" [ref=e239] [cursor=pointer]:
+                    - generic [ref=e240] [cursor=pointer]:
+                      - img "Bike/Scooter" [ref=e241] [cursor=pointer]
+                      - generic [ref=e242] [cursor=pointer]: HR26BR5636
+                  - cell "testing 1234567890" [ref=e243] [cursor=pointer]:
+                    - generic [ref=e244] [cursor=pointer]:
+                      - generic [ref=e245] [cursor=pointer]: testing
+                      - generic [ref=e246] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e247] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e248] [cursor=pointer]:
+                    - generic [ref=e250] [cursor=pointer]: Access Pass
+                    - generic [ref=e251] [cursor=pointer]: HK_timing
+                  - cell "11:09:57 18/09/2026" [ref=e252] [cursor=pointer]:
+                    - generic [ref=e253] [cursor=pointer]: 11:09:57
+                    - generic [ref=e254] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e255] [cursor=pointer]:
+                    - generic [ref=e256] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e257] [cursor=pointer]:
+                    - generic [ref=e259] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e260] [cursor=pointer]:
+                    - generic [ref=e262] [cursor=pointer]: RFID
+                    - generic [ref=e264] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e265] [cursor=pointer]
+                  - cell "-" [ref=e266] [cursor=pointer]:
+                    - generic [ref=e267] [cursor=pointer]: "-"
+                  - cell [ref=e268] [cursor=pointer]:
+                    - img [ref=e272]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e279] [cursor=pointer]:
+                    - generic [ref=e280] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e281] [cursor=pointer]:
+                        - img
+                - row "Car DL01XX0001 testing 1234567890 Entry Access Pass HK_timing 11:08:53 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - foc icon Edit parking log Delete parking log" [ref=e282] [cursor=pointer]:
+                  - cell "Car DL01XX0001" [ref=e283] [cursor=pointer]:
+                    - generic [ref=e284] [cursor=pointer]:
+                      - img "Car" [ref=e285] [cursor=pointer]
+                      - generic [ref=e286] [cursor=pointer]: DL01XX0001
+                  - cell "testing 1234567890" [ref=e287] [cursor=pointer]:
+                    - generic [ref=e288] [cursor=pointer]:
+                      - generic [ref=e289] [cursor=pointer]: testing
+                      - generic [ref=e290] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e291] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e292] [cursor=pointer]:
+                    - generic [ref=e294] [cursor=pointer]: Access Pass
+                    - generic [ref=e295] [cursor=pointer]: HK_timing
+                  - cell "11:08:53 18/09/2026" [ref=e296] [cursor=pointer]:
+                    - generic [ref=e297] [cursor=pointer]: 11:08:53
+                    - generic [ref=e298] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e299] [cursor=pointer]:
+                    - generic [ref=e300] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e301] [cursor=pointer]:
+                    - generic [ref=e303] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e304] [cursor=pointer]:
+                    - generic [ref=e306] [cursor=pointer]: RFID
+                    - generic [ref=e308] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e309] [cursor=pointer]
+                  - cell "-" [ref=e310] [cursor=pointer]:
+                    - generic [ref=e311] [cursor=pointer]: "-"
+                  - cell [ref=e312] [cursor=pointer]:
+                    - img [ref=e316]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e323] [cursor=pointer]:
+                    - generic [ref=e324] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e325] [cursor=pointer]:
+                        - img
+                - row "Bike/Scooter HR26BR5636 testing 1234567890 Entry Access Pass HK_timing 11:00:18 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - log-image-0 foc icon Edit parking log Delete parking log" [ref=e326] [cursor=pointer]:
+                  - cell "Bike/Scooter HR26BR5636" [ref=e327] [cursor=pointer]:
+                    - generic [ref=e328] [cursor=pointer]:
+                      - img "Bike/Scooter" [ref=e329] [cursor=pointer]
+                      - generic [ref=e330] [cursor=pointer]: HR26BR5636
+                  - cell "testing 1234567890" [ref=e331] [cursor=pointer]:
+                    - generic [ref=e332] [cursor=pointer]:
+                      - generic [ref=e333] [cursor=pointer]: testing
+                      - generic [ref=e334] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e335] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e336] [cursor=pointer]:
+                    - generic [ref=e338] [cursor=pointer]: Access Pass
+                    - generic [ref=e339] [cursor=pointer]: HK_timing
+                  - cell "11:00:18 18/09/2026" [ref=e340] [cursor=pointer]:
+                    - generic [ref=e341] [cursor=pointer]: 11:00:18
+                    - generic [ref=e342] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e343] [cursor=pointer]:
+                    - generic [ref=e344] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e345] [cursor=pointer]:
+                    - generic [ref=e347] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e348] [cursor=pointer]:
+                    - generic [ref=e350] [cursor=pointer]: RFID
+                    - generic [ref=e352] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e353] [cursor=pointer]
+                  - cell "-" [ref=e354] [cursor=pointer]:
+                    - generic [ref=e355] [cursor=pointer]: "-"
+                  - cell "log-image-0" [ref=e356] [cursor=pointer]:
+                    - button "log-image-0" [ref=e359] [cursor=pointer]:
+                      - img "log-image-0" [ref=e360] [cursor=pointer]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e361] [cursor=pointer]:
+                    - generic [ref=e362] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e363] [cursor=pointer]:
+                        - img
+                - row "Car DL01XX0001 testing 1234567890 Entry Access Pass HK_timing 10:54:41 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - log-image-0 foc icon Edit parking log Delete parking log" [ref=e364] [cursor=pointer]:
+                  - cell "Car DL01XX0001" [ref=e365] [cursor=pointer]:
+                    - generic [ref=e366] [cursor=pointer]:
+                      - img "Car" [ref=e367] [cursor=pointer]
+                      - generic [ref=e368] [cursor=pointer]: DL01XX0001
+                  - cell "testing 1234567890" [ref=e369] [cursor=pointer]:
+                    - generic [ref=e370] [cursor=pointer]:
+                      - generic [ref=e371] [cursor=pointer]: testing
+                      - generic [ref=e372] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e373] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e374] [cursor=pointer]:
+                    - generic [ref=e376] [cursor=pointer]: Access Pass
+                    - generic [ref=e377] [cursor=pointer]: HK_timing
+                  - cell "10:54:41 18/09/2026" [ref=e378] [cursor=pointer]:
+                    - generic [ref=e379] [cursor=pointer]: 10:54:41
+                    - generic [ref=e380] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e381] [cursor=pointer]:
+                    - generic [ref=e382] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e383] [cursor=pointer]:
+                    - generic [ref=e385] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e386] [cursor=pointer]:
+                    - generic [ref=e388] [cursor=pointer]: RFID
+                    - generic [ref=e390] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e391] [cursor=pointer]
+                  - cell "-" [ref=e392] [cursor=pointer]:
+                    - generic [ref=e393] [cursor=pointer]: "-"
+                  - cell "log-image-0" [ref=e394] [cursor=pointer]:
+                    - button "log-image-0" [ref=e397] [cursor=pointer]:
+                      - img "log-image-0" [ref=e398] [cursor=pointer]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e399] [cursor=pointer]:
+                    - generic [ref=e400] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e401] [cursor=pointer]:
+                        - img
+                - row "Car DL01XX0001 testing 1234567890 Entry Access Pass HK_timing 10:46:58 18/09/2026 ₹0 - Main Entry RFID PSTEST2 - - foc icon Edit parking log Delete parking log" [ref=e402] [cursor=pointer]:
+                  - cell "Car DL01XX0001" [ref=e403] [cursor=pointer]:
+                    - generic [ref=e404] [cursor=pointer]:
+                      - img "Car" [ref=e405] [cursor=pointer]
+                      - generic [ref=e406] [cursor=pointer]: DL01XX0001
+                  - cell "testing 1234567890" [ref=e407] [cursor=pointer]:
+                    - generic [ref=e408] [cursor=pointer]:
+                      - generic [ref=e409] [cursor=pointer]: testing
+                      - generic [ref=e410] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e411] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e412] [cursor=pointer]:
+                    - generic [ref=e414] [cursor=pointer]: Access Pass
+                    - generic [ref=e415] [cursor=pointer]: HK_timing
+                  - cell "10:46:58 18/09/2026" [ref=e416] [cursor=pointer]:
+                    - generic [ref=e417] [cursor=pointer]: 10:46:58
+                    - generic [ref=e418] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e419] [cursor=pointer]:
+                    - generic [ref=e420] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "Main Entry" [ref=e421] [cursor=pointer]:
+                    - generic [ref=e423] [cursor=pointer]: Main Entry
+                  - cell "RFID PSTEST2" [ref=e424] [cursor=pointer]:
+                    - generic [ref=e426] [cursor=pointer]: RFID
+                    - generic [ref=e428] [cursor=pointer]: PSTEST2
+                  - cell "-" [ref=e429] [cursor=pointer]
+                  - cell "-" [ref=e430] [cursor=pointer]:
+                    - generic [ref=e431] [cursor=pointer]: "-"
+                  - cell [ref=e432] [cursor=pointer]:
+                    - img [ref=e436]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e443] [cursor=pointer]:
+                    - generic [ref=e444] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e445] [cursor=pointer]:
+                        - img
+                - row "Car DL01XX0001 testing 1234567890 Exit Access Pass HK_timing 10:46:45 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - foc icon Edit parking log Delete parking log" [ref=e446] [cursor=pointer]:
+                  - cell "Car DL01XX0001" [ref=e447] [cursor=pointer]:
+                    - generic [ref=e448] [cursor=pointer]:
+                      - img "Car" [ref=e449] [cursor=pointer]
+                      - generic [ref=e450] [cursor=pointer]: DL01XX0001
+                  - cell "testing 1234567890" [ref=e451] [cursor=pointer]:
+                    - generic [ref=e452] [cursor=pointer]:
+                      - generic [ref=e453] [cursor=pointer]: testing
+                      - generic [ref=e454] [cursor=pointer]: "1234567890"
+                  - cell "Exit" [ref=e455] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e456] [cursor=pointer]:
+                    - generic [ref=e458] [cursor=pointer]: Access Pass
+                    - generic [ref=e459] [cursor=pointer]: HK_timing
+                  - cell "10:46:45 18/09/2026" [ref=e460] [cursor=pointer]:
+                    - generic [ref=e461] [cursor=pointer]: 10:46:45
+                    - generic [ref=e462] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e464] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e465] [cursor=pointer]:
+                    - generic [ref=e467] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e468] [cursor=pointer]:
+                    - generic [ref=e470] [cursor=pointer]: RFID
+                    - generic [ref=e472] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e473] [cursor=pointer]
+                  - cell "-" [ref=e474] [cursor=pointer]:
+                    - generic [ref=e475] [cursor=pointer]: "-"
+                  - cell [ref=e476] [cursor=pointer]:
+                    - img [ref=e480]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e487] [cursor=pointer]:
+                    - generic [ref=e488] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e489] [cursor=pointer]:
+                        - img
+                - row "Bike/Scooter HR26BR5636 testing 1234567890 Entry Access Pass HK_timing 10:46:41 18/09/2026 ₹0 - PARKSMART EXIT 2 +1 RFID +1 PS01100 +1 - - log-image-0 foc icon Edit parking log Delete parking log" [ref=e490] [cursor=pointer]:
+                  - cell "Bike/Scooter HR26BR5636" [ref=e491] [cursor=pointer]:
+                    - generic [ref=e492] [cursor=pointer]:
+                      - img "Bike/Scooter" [ref=e493] [cursor=pointer]
+                      - generic [ref=e494] [cursor=pointer]: HR26BR5636
+                  - cell "testing 1234567890" [ref=e495] [cursor=pointer]:
+                    - generic [ref=e496] [cursor=pointer]:
+                      - generic [ref=e497] [cursor=pointer]: testing
+                      - generic [ref=e498] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e499] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e500] [cursor=pointer]:
+                    - generic [ref=e502] [cursor=pointer]: Access Pass
+                    - generic [ref=e503] [cursor=pointer]: HK_timing
+                  - cell "10:46:41 18/09/2026" [ref=e504] [cursor=pointer]:
+                    - generic [ref=e505] [cursor=pointer]: 10:46:41
+                    - generic [ref=e506] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e507] [cursor=pointer]:
+                    - generic [ref=e508] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2 +1" [ref=e509] [cursor=pointer]:
+                    - generic [ref=e510] [cursor=pointer]:
+                      - generic [ref=e511] [cursor=pointer]: PARKSMART EXIT 2
+                      - generic [ref=e512] [cursor=pointer]: "+1"
+                  - cell "RFID +1 PS01100 +1" [ref=e513] [cursor=pointer]:
+                    - generic [ref=e514] [cursor=pointer]:
+                      - generic [ref=e515] [cursor=pointer]: RFID
+                      - generic [ref=e516] [cursor=pointer]: "+1"
+                    - generic [ref=e517] [cursor=pointer]:
+                      - generic [ref=e518] [cursor=pointer]: PS01100
+                      - generic [ref=e519] [cursor=pointer]: "+1"
+                  - cell "-" [ref=e520] [cursor=pointer]
+                  - cell "-" [ref=e521] [cursor=pointer]:
+                    - generic [ref=e522] [cursor=pointer]: "-"
+                  - cell "log-image-0" [ref=e523] [cursor=pointer]:
+                    - button "log-image-0" [ref=e526] [cursor=pointer]:
+                      - img "log-image-0" [ref=e527] [cursor=pointer]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e528] [cursor=pointer]:
+                    - generic [ref=e529] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e530] [cursor=pointer]:
+                        - img
+                - row "Bike/Scooter HR26BR5636 testing 1234567890 Exit Access Pass HK_timing 10:46:31 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - foc icon Edit parking log Delete parking log" [ref=e531] [cursor=pointer]:
+                  - cell "Bike/Scooter HR26BR5636" [ref=e532] [cursor=pointer]:
+                    - generic [ref=e533] [cursor=pointer]:
+                      - img "Bike/Scooter" [ref=e534] [cursor=pointer]
+                      - generic [ref=e535] [cursor=pointer]: HR26BR5636
+                  - cell "testing 1234567890" [ref=e536] [cursor=pointer]:
+                    - generic [ref=e537] [cursor=pointer]:
+                      - generic [ref=e538] [cursor=pointer]: testing
+                      - generic [ref=e539] [cursor=pointer]: "1234567890"
+                  - cell "Exit" [ref=e540] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e541] [cursor=pointer]:
+                    - generic [ref=e543] [cursor=pointer]: Access Pass
+                    - generic [ref=e544] [cursor=pointer]: HK_timing
+                  - cell "10:46:31 18/09/2026" [ref=e545] [cursor=pointer]:
+                    - generic [ref=e546] [cursor=pointer]: 10:46:31
+                    - generic [ref=e547] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e548] [cursor=pointer]:
+                    - generic [ref=e549] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e550] [cursor=pointer]:
+                    - generic [ref=e552] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e553] [cursor=pointer]:
+                    - generic [ref=e555] [cursor=pointer]: RFID
+                    - generic [ref=e557] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e558] [cursor=pointer]
+                  - cell "-" [ref=e559] [cursor=pointer]:
+                    - generic [ref=e560] [cursor=pointer]: "-"
+                  - cell [ref=e561] [cursor=pointer]:
+                    - img [ref=e565]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e572] [cursor=pointer]:
+                    - generic [ref=e573] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e574] [cursor=pointer]:
+                        - img
+                - row "Car DL01XX0001 testing 1234567890 Exit Access Pass HK_timing 10:40:49 18/09/2026 ₹0 - PARKSMART EXIT 2 RFID PS01100 - - foc icon Edit parking log Delete parking log" [ref=e575] [cursor=pointer]:
+                  - cell "Car DL01XX0001" [ref=e576] [cursor=pointer]:
+                    - generic [ref=e577] [cursor=pointer]:
+                      - img "Car" [ref=e578] [cursor=pointer]
+                      - generic [ref=e579] [cursor=pointer]: DL01XX0001
+                  - cell "testing 1234567890" [ref=e580] [cursor=pointer]:
+                    - generic [ref=e581] [cursor=pointer]:
+                      - generic [ref=e582] [cursor=pointer]: testing
+                      - generic [ref=e583] [cursor=pointer]: "1234567890"
+                  - cell "Exit" [ref=e584] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e585] [cursor=pointer]:
+                    - generic [ref=e587] [cursor=pointer]: Access Pass
+                    - generic [ref=e588] [cursor=pointer]: HK_timing
+                  - cell "10:40:49 18/09/2026" [ref=e589] [cursor=pointer]:
+                    - generic [ref=e590] [cursor=pointer]: 10:40:49
+                    - generic [ref=e591] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e592] [cursor=pointer]:
+                    - generic [ref=e593] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "PARKSMART EXIT 2" [ref=e594] [cursor=pointer]:
+                    - generic [ref=e596] [cursor=pointer]: PARKSMART EXIT 2
+                  - cell "RFID PS01100" [ref=e597] [cursor=pointer]:
+                    - generic [ref=e599] [cursor=pointer]: RFID
+                    - generic [ref=e601] [cursor=pointer]: PS01100
+                  - cell "-" [ref=e602] [cursor=pointer]
+                  - cell "-" [ref=e603] [cursor=pointer]:
+                    - generic [ref=e604] [cursor=pointer]: "-"
+                  - cell [ref=e605] [cursor=pointer]:
+                    - img [ref=e609]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e616] [cursor=pointer]:
+                    - generic [ref=e617] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e618] [cursor=pointer]:
+                        - img
+                - row "Bike/Scooter HR26BR5636 testing 1234567890 Entry Access Pass HK_timing 10:24:04 18/09/2026 ₹0 - Main Entry RFID PSTEST2 - - foc icon Edit parking log Delete parking log" [ref=e619] [cursor=pointer]:
+                  - cell "Bike/Scooter HR26BR5636" [ref=e620] [cursor=pointer]:
+                    - generic [ref=e621] [cursor=pointer]:
+                      - img "Bike/Scooter" [ref=e622] [cursor=pointer]
+                      - generic [ref=e623] [cursor=pointer]: HR26BR5636
+                  - cell "testing 1234567890" [ref=e624] [cursor=pointer]:
+                    - generic [ref=e625] [cursor=pointer]:
+                      - generic [ref=e626] [cursor=pointer]: testing
+                      - generic [ref=e627] [cursor=pointer]: "1234567890"
+                  - cell "Entry" [ref=e628] [cursor=pointer]
+                  - cell "Access Pass HK_timing" [ref=e629] [cursor=pointer]:
+                    - generic [ref=e631] [cursor=pointer]: Access Pass
+                    - generic [ref=e632] [cursor=pointer]: HK_timing
+                  - cell "10:24:04 18/09/2026" [ref=e633] [cursor=pointer]:
+                    - generic [ref=e634] [cursor=pointer]: 10:24:04
+                    - generic [ref=e635] [cursor=pointer]: 18/09/2026
+                  - cell "₹0 -" [ref=e636] [cursor=pointer]:
+                    - generic [ref=e637] [cursor=pointer]: ₹0
+                    - text: "-"
+                  - cell "Main Entry" [ref=e638] [cursor=pointer]:
+                    - generic [ref=e640] [cursor=pointer]: Main Entry
+                  - cell "RFID PSTEST2" [ref=e641] [cursor=pointer]:
+                    - generic [ref=e643] [cursor=pointer]: RFID
+                    - generic [ref=e645] [cursor=pointer]: PSTEST2
+                  - cell "-" [ref=e646] [cursor=pointer]
+                  - cell "-" [ref=e647] [cursor=pointer]:
+                    - generic [ref=e648] [cursor=pointer]: "-"
+                  - cell [ref=e649] [cursor=pointer]:
+                    - img [ref=e653]
+                  - cell "foc icon Edit parking log Delete parking log" [ref=e660] [cursor=pointer]:
+                    - generic [ref=e661] [cursor=pointer]:
+                      - button "foc icon" [disabled]:
+                        - img "foc icon"
+                      - button "Edit parking log" [disabled]:
+                        - img
+                      - button "Delete parking log" [ref=e662] [cursor=pointer]:
+                        - img
+            - generic [ref=e664]:
+              - button [ref=e666] [cursor=pointer]:
+                - img
+              - generic [ref=e667]:
+                - generic [ref=e668]:
+                  - generic [ref=e669]: Show
+                  - combobox [ref=e670] [cursor=pointer]:
+                    - generic: "10"
+                    - img [ref=e671] [cursor=pointer]
+                - generic [ref=e673]: 1 - 10 of 10
+                - generic [ref=e675]:
+                  - button "First Page" [disabled]:
+                    - img
+                  - button "Previous Page" [disabled]:
+                    - img
+                  - button "1" [ref=e676] [cursor=pointer]
+                  - button "Next Page" [disabled]:
+                    - img
+                  - button "Last Page" [disabled]:
+                    - img
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e677]
+```

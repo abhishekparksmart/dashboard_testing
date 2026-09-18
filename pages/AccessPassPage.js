@@ -12,7 +12,7 @@ exports.AccessPassPage = class AccessPassPage {
     this.filters = new Filters(page);
     this.table = new Table(page);
     
-    this.createAccessPassButton = page.getByRole('button', { name: 'Issue Access Pass' });
+    this.createAccessPassButton = page.getByRole('button', { name: /Issue Access Pass/i });
     this.submitCreatePassButton = page.getByText('Issue Pass', { exact: true }).last();
     this.addVehicleButton = page.getByRole('button', { name: 'Add Vehicle' });
   }
@@ -26,7 +26,7 @@ exports.AccessPassPage = class AccessPassPage {
 
   // Actions
   async openCreateAccessPassModal() {
-    await this.createAccessPassButton.click();
+    await this.createAccessPassButton.first().click();
     await this.page.waitForTimeout(500);
   }
 

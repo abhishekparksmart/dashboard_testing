@@ -1,0 +1,238 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "ParkSmart Business" [ref=e8]
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - combobox [ref=e12] [cursor=pointer]:
+              - generic [ref=e13] [cursor=pointer]: ParkSmart
+              - img
+            - button "Clear selection" [ref=e14] [cursor=pointer]:
+              - img
+          - combobox [ref=e18] [cursor=pointer]:
+            - generic [ref=e19] [cursor=pointer]: All
+            - img
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Parking Logs" [ref=e24] [cursor=pointer]:
+            - /url: /web/dashboard/Logs
+            - button "Parking Logs" [ref=e25] [cursor=pointer]:
+              - img [ref=e26] [cursor=pointer]
+        - listitem [ref=e30]:
+          - button "Site Management" [ref=e31] [cursor=pointer]:
+            - img [ref=e32] [cursor=pointer]
+            - img [ref=e37] [cursor=pointer]
+        - listitem [ref=e39]:
+          - button "Operator Management" [ref=e40] [cursor=pointer]:
+            - img [ref=e41] [cursor=pointer]
+            - img [ref=e45] [cursor=pointer]
+        - listitem [ref=e47]:
+          - button "Access Management" [ref=e48] [cursor=pointer]:
+            - img [ref=e49] [cursor=pointer]
+            - img [ref=e54] [cursor=pointer]
+        - listitem [ref=e56]:
+          - button "Visitor Management" [ref=e57] [cursor=pointer]:
+            - img [ref=e58] [cursor=pointer]
+            - img [ref=e64] [cursor=pointer]
+        - listitem [ref=e66]:
+          - button "Inventory" [ref=e67] [cursor=pointer]:
+            - img [ref=e68] [cursor=pointer]
+            - img [ref=e71] [cursor=pointer]
+        - listitem [ref=e73]:
+          - button "Valet Management" [ref=e74] [cursor=pointer]:
+            - img [ref=e75] [cursor=pointer]
+            - img [ref=e79] [cursor=pointer]
+        - listitem [ref=e81]:
+          - button "Reports" [ref=e82] [cursor=pointer]:
+            - img [ref=e83] [cursor=pointer]
+            - img [ref=e87] [cursor=pointer]
+        - listitem [ref=e89]:
+          - link "Transactions" [ref=e90] [cursor=pointer]:
+            - /url: /web/dashboard/Transactions
+            - button "Transactions" [ref=e91] [cursor=pointer]:
+              - img [ref=e92] [cursor=pointer]
+        - listitem [ref=e96]:
+          - button "Violations" [ref=e97] [cursor=pointer]:
+            - img [ref=e98] [cursor=pointer]
+            - img [ref=e106] [cursor=pointer]
+        - listitem [ref=e108]:
+          - link "Importer" [ref=e109] [cursor=pointer]:
+            - /url: /web/dashboard/Importer
+            - button "Importer" [ref=e110] [cursor=pointer]:
+              - img [ref=e111] [cursor=pointer]
+        - listitem [ref=e116]:
+          - link "User Activity" [ref=e117] [cursor=pointer]:
+            - /url: /web/dashboard/UserActivity
+            - button "User Activity" [ref=e118] [cursor=pointer]:
+              - img [ref=e119] [cursor=pointer]
+        - listitem [ref=e121]:
+          - button "User Management" [ref=e122] [cursor=pointer]:
+            - img [ref=e123] [cursor=pointer]
+            - img [ref=e129] [cursor=pointer]
+    - main [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - button "Panel Left Toggle Sidebar" [ref=e134] [cursor=pointer]:
+            - img "Panel Left" [ref=e135] [cursor=pointer]
+            - generic [ref=e136] [cursor=pointer]: Toggle Sidebar
+          - navigation "breadcrumb" [ref=e137]:
+            - list [ref=e138]:
+              - link "Parking Logs" [disabled] [ref=e139]
+        - generic [ref=e140]:
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - button "Testimonials Abhishek Kumar abhishekkumar" [ref=e143] [cursor=pointer]:
+                - generic [ref=e144] [cursor=pointer]:
+                  - img "Testimonials" [ref=e146] [cursor=pointer]
+                  - generic [ref=e147] [cursor=pointer]:
+                    - generic [ref=e148] [cursor=pointer]: Abhishek Kumar
+                    - generic [ref=e149] [cursor=pointer]: abhishekkumar
+                - img [ref=e150] [cursor=pointer]
+          - button "Dashboard user access" [ref=e153] [cursor=pointer]:
+            - img
+      - generic [ref=e155]:
+        - tablist [ref=e156]:
+          - tab "Logs" [ref=e157] [cursor=pointer]
+          - tab "Summary" [active] [selected] [ref=e158] [cursor=pointer]
+        - tabpanel "Summary" [ref=e159]:
+          - generic [ref=e160]:
+            - generic [ref=e162]:
+              - generic [ref=e164] [cursor=pointer]:
+                - img [ref=e165] [cursor=pointer]
+                - generic [ref=e167] [cursor=pointer]:
+                  - generic [ref=e168] [cursor=pointer]: Sep 18, 2026
+                  - generic [ref=e169] [cursor=pointer]: "|"
+                  - generic [ref=e170] [cursor=pointer]: Today
+              - button "00:00:00 to 23:59:59" [ref=e172] [cursor=pointer]:
+                - img [ref=e173] [cursor=pointer]
+                - generic [ref=e176] [cursor=pointer]: 00:00:00 to 23:59:59
+              - generic [ref=e178] [cursor=pointer]:
+                - img [ref=e179] [cursor=pointer]
+                - text: Filters
+              - combobox [ref=e181] [cursor=pointer]:
+                - generic: Default
+                - img [ref=e182] [cursor=pointer]
+              - button "Apply" [disabled]
+              - button "Saved filters" [ref=e185] [cursor=pointer]:
+                - img
+            - generic [ref=e186]: "Showing results for: Sep 18, 2026 , 12:00 AM - Sep 18, 2026 , 11:59 PM"
+          - generic [ref=e189]:
+            - img [ref=e191] [cursor=pointer]
+            - generic [ref=e196] [cursor=pointer]:
+              - img [ref=e197] [cursor=pointer]
+              - text: Customize
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e205]: Entered
+              - generic [ref=e206]:
+                - generic [ref=e207]: "7"
+                - generic [ref=e208]:
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - img "Car" [ref=e212]
+                      - generic [ref=e213]: Car
+                    - generic [ref=e214]: "3"
+                  - generic [ref=e216]:
+                    - generic [ref=e217]:
+                      - img "Bike/Scooter" [ref=e218]
+                      - generic [ref=e219]: Bike/Scooter
+                    - generic [ref=e220]: "4"
+            - generic [ref=e221]:
+              - generic [ref=e223]: Exited
+              - generic [ref=e224]:
+                - generic [ref=e225]: "3"
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - text: In Period
+                    - generic [ref=e228]: "2"
+                  - generic [ref=e229]:
+                    - text: Carry In
+                    - generic [ref=e230]: "1"
+                - generic [ref=e231]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]:
+                      - generic [ref=e234]:
+                        - img "Car" [ref=e235]
+                        - generic [ref=e236]: Car
+                      - generic [ref=e237]: "2"
+                    - generic [ref=e239]:
+                      - generic [ref=e240]:
+                        - text: In Period
+                        - generic [ref=e241]: "1"
+                      - generic [ref=e242]:
+                        - text: Carry In
+                        - generic [ref=e243]: "1"
+                  - generic [ref=e244]:
+                    - generic [ref=e245]:
+                      - generic [ref=e246]:
+                        - img "Bike/Scooter" [ref=e247]
+                        - generic [ref=e248]: Bike/Scooter
+                      - generic [ref=e249]: "1"
+                    - generic [ref=e251]:
+                      - generic [ref=e252]:
+                        - text: In Period
+                        - generic [ref=e253]: "1"
+                      - generic [ref=e254]:
+                        - text: Carry In
+                        - generic [ref=e255]: "0"
+            - generic [ref=e256]:
+              - generic [ref=e258]: Amount
+              - generic [ref=e259]:
+                - generic [ref=e260]: ₹0
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - text: In Period
+                    - generic [ref=e263]: ₹0
+                  - generic [ref=e264]:
+                    - text: Carry In
+                    - generic [ref=e265]: ₹0
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [ref=e268]:
+                      - generic [ref=e269]:
+                        - img "Car" [ref=e270]
+                        - generic [ref=e271]: Car
+                      - generic [ref=e272]: ₹0
+                    - generic [ref=e274]:
+                      - generic [ref=e275]:
+                        - text: In Period
+                        - generic [ref=e276]: ₹0
+                      - generic [ref=e277]:
+                        - text: Carry In
+                        - generic [ref=e278]: ₹0
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - generic [ref=e281]:
+                        - img "Bike/Scooter" [ref=e282]
+                        - generic [ref=e283]: Bike/Scooter
+                      - generic [ref=e284]: ₹0
+                    - generic [ref=e286]:
+                      - generic [ref=e287]:
+                        - text: In Period
+                        - generic [ref=e288]: ₹0
+                      - generic [ref=e289]:
+                        - text: Carry In
+                        - generic [ref=e290]: ₹0
+            - generic [ref=e291]:
+              - generic [ref=e293]: Not- Exited
+              - generic [ref=e294]:
+                - generic [ref=e295]: "5"
+                - generic [ref=e296]:
+                  - generic [ref=e298]:
+                    - generic [ref=e299]:
+                      - img "Car" [ref=e300]
+                      - generic [ref=e301]: Car
+                    - generic [ref=e302]: "2"
+                  - generic [ref=e304]:
+                    - generic [ref=e305]:
+                      - img "Bike/Scooter" [ref=e306]
+                      - generic [ref=e307]: Bike/Scooter
+                    - generic [ref=e308]: "3"
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=e309]
+```
