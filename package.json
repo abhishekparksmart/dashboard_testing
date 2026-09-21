@@ -6,7 +6,9 @@
   "scripts": {
     "test": "playwright test",
     "test:smoke": "playwright test --grep @smoke",
-    "test:integration": "playwright test tests/integration"
+    "test:integration": "playwright test tests/integration",
+    "report:html": "playwright show-report reports/html-report",
+    "report:allure": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report"
   },
   "keywords": [],
   "author": "",

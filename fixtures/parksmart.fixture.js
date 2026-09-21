@@ -10,8 +10,25 @@ const { AccessPassTypesPage }    = require('../pages/AccessPassTypesPage');
 const { AccessPassRequestsPage } = require('../pages/AccessPassRequestsPage');
 const { ClientsPage }            = require('../pages/ClientsPage');
 const { SitesPage }              = require('../pages/SitesPage');
+const { GatesPage }              = require('../pages/GatesPage');
+const { SiteUnitsPage }          = require('../pages/SiteUnitsPage');
+const { ParkingAreasPage }       = require('../pages/ParkingAreasPage');
+const { MigrationsPage }         = require('../pages/MigrationsPage');
+const { OperatorsPage }          = require('../pages/OperatorsPage');
+const { AppVersionPage }         = require('../pages/AppVersionPage');
+const { UsersPage }              = require('../pages/UsersPage');
+const { RolesPage }              = require('../pages/RolesPage');
+const { PermissionsPage }        = require('../pages/PermissionsPage');
+const { VisitsPage }             = require('../pages/VisitsPage');
+const { HardwaresPage }          = require('../pages/HardwaresPage');
+const { TerminalsPage }          = require('../pages/TerminalsPage');
+const { TagsPage }               = require('../pages/TagsPage');
+const { ManualBarrierLogsPage }  = require('../pages/ManualBarrierLogsPage');
+const { GracePeriodPage }        = require('../pages/GracePeriodPage');
 const { ReportsPage }            = require('../pages/ReportsPage');
 const { ValetDriverPage }        = require('../pages/ValetDriverPage');
+const { ImporterPage }           = require('../pages/ImporterPage');
+const { UserActivityPage }       = require('../pages/UserActivityPage');
 
 /**
  * ParkSmart Playwright fixture.
@@ -32,6 +49,24 @@ const test = base.extend({
    */
   psPage: async ({ page }, use) => {
     const baseUrl = process.env.BASE_URL || 'https://web.parksmart.io';
+    
+    // --- Global Error Listeners ---
+    const pageErrors = [];
+    const failedApis = [];
+
+    // Catch unhandled Javascript Exceptions
+    page.on('pageerror', (err) => {
+      pageErrors.push(err.message);
+    });
+
+    // Catch failed Backend API Responses (HTTP 500+)
+    page.on('response', (response) => {
+      if (response.status() >= 500) {
+        failedApis.push(`[${response.status()}] ${response.url()}`);
+      }
+    });
+    // ------------------------------
+
     await page.goto(`${baseUrl}/web/dashboard`);
     await page.waitForLoadState('networkidle', { timeout: 20000 });
 
@@ -44,6 +79,15 @@ const test = base.extend({
     }
 
     await use(page);
+
+    // --- Global Assertions ---
+    if (pageErrors.length > 0 || failedApis.length > 0) {
+      const errorMsg = [
+        ...pageErrors.map(e => `JS Exception: ${e}`),
+        ...failedApis.map(e => `API Failure: ${e}`)
+      ].join('\n');
+      throw new Error(`Global Error Listener caught silent failures during the test:\n${errorMsg}`);
+    }
   },
 
   /** Dashboard page object (no extra navigation) */
@@ -129,9 +173,100 @@ const test = base.extend({
     await use(pageObj);
   },
 
+  gatesPage: async ({ psPage }, use) => {
+    const pageObj = new GatesPage(psPage);
+    await use(pageObj);
+  },
+
+  siteUnitsPage: async ({ psPage }, use) => {
+    const pageObj = new SiteUnitsPage(psPage);
+    await use(pageObj);
+  },
+
+  parkingAreasPage: async ({ psPage }, use) => {
+    const pageObj = new ParkingAreasPage(psPage);
+    await use(pageObj);
+  },
+
+  migrationsPage: async ({ psPage }, use) => {
+    const pageObj = new MigrationsPage(psPage);
+    await use(pageObj);
+  },
+
+  operatorsPage: async ({ psPage }, use) => {
+    const pageObj = new OperatorsPage(psPage);
+    await use(pageObj);
+  },
+
+  appVersionPage: async ({ psPage }, use) => {
+    const pageObj = new AppVersionPage(psPage);
+    await use(pageObj);
+  },
+
+  usersPage: async ({ psPage }, use) => {
+    const pageObj = new UsersPage(psPage);
+    await use(pageObj);
+  },
+
+  rolesPage: async ({ psPage }, use) => {
+    const pageObj = new RolesPage(psPage);
+    await use(pageObj);
+  },
+
+  permissionsPage: async ({ psPage }, use) => {
+    const pageObj = new PermissionsPage(psPage);
+    await use(pageObj);
+  },
+
+  visitsPage: async ({ psPage }, use) => {
+    const pageObj = new VisitsPage(psPage);
+    await use(pageObj);
+  },
+
+  hardwaresPage: async ({ psPage }, use) => {
+    const pageObj = new HardwaresPage(psPage);
+    await use(pageObj);
+  },
+
+  terminalsPage: async ({ psPage }, use) => {
+    const pageObj = new TerminalsPage(psPage);
+    await use(pageObj);
+  },
+
+  tagsPage: async ({ psPage }, use) => {
+    const pageObj = new TagsPage(psPage);
+    await use(pageObj);
+  },
+
+  manualBarrierLogsPage: async ({ psPage }, use) => {
+    const pageObj = new ManualBarrierLogsPage(psPage);
+    await use(pageObj);
+  },
+
+  gracePeriodPage: async ({ psPage }, use) => {
+    const pageObj = new GracePeriodPage(psPage);
+    await use(pageObj);
+  },
+
   /** Reports page object (no auto-navigation — caller navigates) */
   reportsPage: async ({ psPage }, use) => {
     await use(new ReportsPage(psPage));
+  },
+
+  importerPage: async ({ psPage }, use) => {
+    await use(new ImporterPage(psPage));
+  },
+
+  userActivityPage: async ({ psPage }, use) => {
+    await use(new UserActivityPage(psPage));
+  },
+
+  transactionsPage: async ({ psPage }, use) => {
+    await use(new TransactionsPage(psPage));
+  },
+
+  parkSmartLogsPage: async ({ psPage }, use) => {
+    await use(new ParkSmartLogsPage(psPage));
   },
 
   /**
