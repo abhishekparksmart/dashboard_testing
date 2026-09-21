@@ -7,6 +7,9 @@ const { ParkSmartLogsPage }      = require('../pages/ParkSmartLogsPage');
 const { TransactionsPage }       = require('../pages/TransactionsPage');
 const { AccessPassPage }         = require('../pages/AccessPassPage');
 const { AccessPassTypesPage }    = require('../pages/AccessPassTypesPage');
+const { AccessPassRequestsPage } = require('../pages/AccessPassRequestsPage');
+const { ClientsPage }            = require('../pages/ClientsPage');
+const { SitesPage }              = require('../pages/SitesPage');
 const { ReportsPage }            = require('../pages/ReportsPage');
 const { ValetDriverPage }        = require('../pages/ValetDriverPage');
 
@@ -108,6 +111,21 @@ const test = base.extend({
 
   apTypesPage: async ({ psPage }, use) => {
     const pageObj = new AccessPassTypesPage(psPage);
+    await use(pageObj);
+  },
+
+  apRequestsPage: async ({ psPage }, use) => {
+    const pageObj = new AccessPassRequestsPage(psPage);
+    await use(pageObj);
+  },
+
+  clientsPage: async ({ psPage }, use) => {
+    const pageObj = new ClientsPage(psPage);
+    await use(pageObj);
+  },
+
+  sitesPage: async ({ psPage }, use) => {
+    const pageObj = new SitesPage(psPage);
     await use(pageObj);
   },
 

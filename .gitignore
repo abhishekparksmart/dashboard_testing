@@ -1,8 +1,25 @@
-
-# Playwright
+# Dependencies
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+
+# Environment files with secrets
+.env*.local
+
+# Authentication & session storage
+.auth/
+playwright/.auth/
+
+# Playwright test execution artifacts & cache
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Test Reports & Allure
+reports/
+allure-results/
+allure-report/
+
+# Screenshots & Debug Dumps
+*.png
+*-dump.json
+*-dom.json
